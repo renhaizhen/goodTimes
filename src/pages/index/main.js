@@ -1,12 +1,7 @@
-import Vue from 'vue'
-import App from './index'
+import vue from 'vue'
+import Index from './index.vue'
 
-// add this to handle exception
-Vue.config.errorHandler = function (err) {
-  if (console && console.error) {
-    console.error(err)
-  }
-}
+const index = new vue(Index)
 
-const app = new Vue(App)
-app.$mount()
+//挂载当前的页面 不是整个应用
+index.$mount()

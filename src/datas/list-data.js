@@ -1,0 +1,46 @@
+let listData = [{
+    date:'2018/3/15',
+    title:'yy',
+    detail_img:'/static/images/head.webp',
+    detail_content:'我是详情啊啊啊啊啊啊啊啊啊，我是详情啊啊啊啊啊啊啊啊啊',
+    shou:'/static/images/shou.png',
+    show:'/static/images/1.jpg',
+    shou_account:45,
+    kan:'/static/images/kan.png',
+    kan_account:66
+},
+{
+    date:'2018/4/15',
+    title:'yy',
+    detail_img:'/static/images/head.webp',
+    detail_content:'我是详情vvvvvvvvvv，我是详情啊啊啊啊啊啊啊啊啊',
+    shou:'/static/images/shou.png',
+    show:'/static/images/2.jpg',
+    shou_account:5555,
+    kan:'/static/images/kan.png',
+    kan_account:61113216
+},
+{
+    date:'2018/7/15',
+    title:'yy',
+    detail_img:'/static/images/head.webp',
+    detail_content:'我是详情啊dsadadadsa，我是详情啊啊啊啊啊啊啊啊啊',
+    shou:'/static/images/shou.png',
+    show:'/static/images/3.jpg',
+    shou_account:3333,
+    kan:'/static/images/kan.png',
+    kan_account:3213
+},
+{
+    date:'2018/9/15',
+    title:'yy',
+    detail_img:'/static/images/head.webp',
+    detail_content:'我是详情dsadadadasdasda，我是详情啊啊啊啊啊啊啊啊啊',
+    shou:'/static/images/shou.png',
+    show:'/static/images/1.jpg',
+    shou_account:454545,
+    kan:'/static/images/kan.png',
+    kan_account:6545
+}
+]
+export default {listData}
